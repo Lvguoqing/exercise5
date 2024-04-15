@@ -1,0 +1,36 @@
+body, html {  
+    height: 100%;  
+    margin: 0;  
+  }  
+    
+  .container {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    justify-content: center;  
+    height: 100%;  
+  }  
+    
+  img {  
+    max-width: 500px; /* 设置图片的最大宽度为 300px */  
+    height: auto; /* 高度自适应，以保持图片的宽高比 */  
+    margin-bottom: 20px; /* 图片与按钮之间的间距 */  
+  }  
+    
+  h1, h2 {  
+    text-align: center;  
+    margin-bottom: 20px; /* 标题与图像之间的间距 */  
+  }  
+    
+  h1 {  
+    font-size: 2em; /* h1 标题的字体大小 */  
+  }  
+    
+  h2 {  
+    font-size: 1.5em; /* h2 标题的字体大小 */  
+  }  
+    
+  button {  
+    padding: 10px 20px;  
+    font-size: 16px;  
+  }
